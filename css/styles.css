@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #34D399;
+    --secondary-color: #4DD7E9;
+    --btn-color: #9934d3;
+    --btn-color-shadow: #d946ef;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+h1 {
+    margin: 0.3rem 1rem;
+    text-align: center;
+}
+#leap-year-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#input-year {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    border: 2px solid black;
+    margin: 0.3rem 1rem;
+    background-color: var(--secondary-color);
+
+}
+
+
+#output-year {
+    width: 80%;
+    height: 10vh;
+    border: 2px solid black;
+    margin: 0.3rem 1rem;
+    background-color: var(--secondary-color);
+}
+
+#btn-check {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 2px solid var(--btn-color-shadow);
+    cursor: pointer;
+    margin: 0.3rem 1rem;
+    background-color: var(--btn-color);
+    color: #fff;
+}
