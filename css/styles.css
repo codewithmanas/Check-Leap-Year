@@ -35,9 +35,11 @@ h1 {
 #output-year {
     width: 80%;
     height: 10vh;
+    text-align: center;
     border: 2px solid black;
     border-radius: 10px;
     margin: 0.3rem 1rem;
+    padding-top: 1rem;
     background-color: var(--secondary-color);
 }
 
