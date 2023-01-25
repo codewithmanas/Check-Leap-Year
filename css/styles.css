@@ -6,6 +6,7 @@
 }
 
 body {
+    box-sizing: border-box;
     background-color: var(--primary-color);
 }
 
@@ -24,6 +25,7 @@ h1 {
     height: 10vh;
     display: block;
     border: 2px solid black;
+    border-radius: 10px;
     margin: 0.3rem 1rem;
     background-color: var(--secondary-color);
 
@@ -34,6 +36,7 @@ h1 {
     width: 80%;
     height: 10vh;
     border: 2px solid black;
+    border-radius: 10px;
     margin: 0.3rem 1rem;
     background-color: var(--secondary-color);
 }
